@@ -1,7 +1,7 @@
 import sys
 
 def get_input():
-    print("Zadaj číslo: ")
+    print("Zadaj číslo, ak chceš skončiť, zadaj 99: ")
     x = sys.stdin.readline()
     return int(x)
 
